@@ -38,8 +38,6 @@ class Ball(Turtle):
         if self.ycor()>=300 or self.ycor()<=-300:
             return True
 
-    def increase_speed(self):
-        time.sleep()
     def refresh(self):
         self.move_speed = 0.1
         self.goto(0,0)
